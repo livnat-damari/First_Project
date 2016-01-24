@@ -1,0 +1,81 @@
+@import url(http://fonts.googleapis.com/earlyaccess/alefhebrew.css);
+body {
+	font-family: "Alef Hebrew", sans-serif;
+	font-size:15px;
+	line-height:1.5em;
+	direction: rtl;
+	background-color: #F5FCD0;
+}
+
+.header {
+/*	background:linear-gradient(#A3CD3A, #D2FF62);*/
+	min-width: 600px;
+	width: 95%;
+	margin: auto;
+	overflow: hidden;
+	border-radius:6px;
+	box-shadow:0 2px 2px #ccc;
+	background: white;
+}
+
+#logo {
+	height: 150px;
+	margin: auto;
+	display:block;
+    float:right;
+}
+
+#menu-wrap{
+	margin: 20px;
+	padding: 20px;
+    float:right;
+}
+
+#menu, #menu ul{
+    border-radius: 5px;
+    background-color: #8A429C;
+    text-align: center;
+    color: #C77966;
+    opacity: 0.5;
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+#menu-trigger{
+	/* Hide Initially */
+	display:none;
+}
+.right, .left {
+	background-color: white;
+	width: 30%;
+	padding: 20px;
+	border: 4px solid #8A429C;
+	border-radius: 10px;
+	margin-top: 20px;
+}
+
+.left, .right {
+	float: left;
+	margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+h1  {
+	font-size: 24px;
+	color: #823F7C;
+	padding: 5px;
+	margin-bottom: 15px;
+	font-weight: 1.5em;
+}
+
+p{
+	margin-bottom: 15px;
+}
+
+.left li {
+	list-style-type: square;
+	margin-right: 20px;
+	margin-bottom: 10px;
+}

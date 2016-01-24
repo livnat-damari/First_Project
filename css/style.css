@@ -1,0 +1,208 @@
+@import url(http://fonts.googleapis.com/earlyaccess/alefhebrew.css);
+
+body{
+	font-family: "Alef Hebrew", sans-serif;
+	font-size:15px;
+	line-height:1.5em;
+	direction: rtl;
+	background-color: #F5FCD0;
+}
+h1 {
+	font-size: 39px;
+	font-weight: bold;
+	margin: 20px 10px;
+	line-height: 1.2em;
+}
+
+h4 {
+	font-size: 19px;
+	margin: 10px 0;
+	text-align:justify;
+}
+
+#container {
+	width: 70%;
+	margin: 10px auto;
+	background:#fff;
+	overflow: auto;
+	text-align: justify;
+}
+
+p {
+	margin: 10px;
+	line-height: 1.5em;
+}
+
+strong {
+	font-weight:bold;
+}
+
+.clearfix {
+	clear: both;
+}
+
+header#main-header{
+	border-bottom: 4Px solid #81417F;
+}
+
+img#logo{
+	margin: auto;
+	display:block;
+}
+
+#main-text{
+	text-align: center;
+	color:#333;
+	padding: 10px;
+	margin: 20px;
+}
+
+#sub-1{
+	margin: 20px;
+	float: left;
+	width: 45%;
+}
+
+#sub-2{
+	margin-right: 20px;
+	float: right;
+	width: 48%;
+}
+
+.points li{
+	margin-bottom: 30px;
+}
+
+.points img {
+	float: left;
+	margin-right: 7px;
+}
+
+.points h4 {
+	padding-top: 5px;
+}
+
+.content-header {
+	border-top: #ddd solid 1px;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+}
+
+.content-footer {
+	border-top: #ddd solid 1px;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+	text-align: center-right;
+}
+
+#contact-form{
+	padding: 10px 15px 15px 15px;
+	border: 4Px solid #81417F;
+	border-radius: 10px;
+	-webkit-border-radius: 10px; 
+	-moz-border-radius: 10px;  
+	overflow:auto;
+	background: #f4f4f4;
+}
+
+#contact-form div{
+	margin-bottom: 20px;
+}
+
+#contact-form label{
+	display: inline-block;
+	width: 80px;
+	font-weight: bold;
+}
+
+#contact-form input[type='text'], #contact-form input[type='email']{
+		border: #ccc 1px solid;
+		border-radius: 5px;
+		-webkit-border-radius: 5px; 
+		-moz-border-radius: 5px;  
+		height: 25px;
+		width: 65%;
+}
+
+#contact-form input[type='submit']{
+	padding: 12px 17px;
+	color: #fff;
+	background: #fa6e3e;
+	border:0;
+	border-radius: 5px;
+	-webkit-border-radius: 5px; 
+	-moz-border-radius: 5px;  
+	float:right;
+	display: block;
+}
+
+#contact-form input[type='submit']:hover{
+	background: #d55427;
+	cursor: pointer;
+}
+
+#contact-form  .content-footer: p{
+	font-style: italic;
+	text-align: center;
+	color: #666;
+	font-size: 50%;
+}
+
+#testimonial {
+	margin: 40px;
+	font-style: italic;
+	color: #666;
+}
+
+#testimonial {
+	margin: 40px;
+	font-style: italic;
+	color: #666;
+	text-align: justify;
+}
+
+#testimonial img {
+	float: left;
+	margin-right: 20px;
+}
+
+footer#main-footer{
+	text-align: center;
+	border-top: #ccc solid 1px;
+	color: #aaa;
+}
+
+@media (max-width: 960px) {
+	#container{
+		width: 90%;
+	}
+	
+	h1{
+		font-size: 32px;
+	}
+	
+	#sub-1, #sub-2{
+		float: none;
+		width: 100%;
+	}
+	
+	.points li {
+		background: #eee;
+		padding: 8px;
+		border-radius:10px;
+		-webkit-border-radius: 5px; 
+		-moz-border-radius: 5px;  
+	}
+	
+	.points img {
+		margin-top: 7px;
+	}
+	
+	#testimonial img {
+		float: none;
+		margin: auto;
+		display: block;
+		margin-bottom: 20px;
+	}
+}
+
